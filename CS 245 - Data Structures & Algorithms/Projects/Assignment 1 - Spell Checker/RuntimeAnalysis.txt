@@ -1,0 +1,7 @@
+RUNTIME ANALYSIS
+
+The runtime complexity of the BST search is O(n), while insertion is O(height of tree)
+
+The runtime complexity of the Trie search and insertion is O(size of the word), which would be the same as the height of the tree in the case of a BST
+
+Using a Trie is advantageous in the respect that the insertion of words doesn't rely on tree height, instead the length of the word. They are also better advantageous when spell checking due to time complexity. Also, the Trie doesn't use random word elements as the root.
